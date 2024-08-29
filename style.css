@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Quicksand';font-size: 22px;
+    color: #676767;
+}
+.welcomPage{
+    background-image: url(https://early-wildflower-281.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ffb56a855-0c74-4a0d-84dc-3fb7c76ae0b3%2F0ba5b70c-e4de-4e4b-87f9-3f873e0e9849%2FsoupHedar.jpg?table=block&id=58e976de-39d1-4fa9-968b-81680cf6e458&spaceId=fb56a855-0c74-4a0d-84dc-3fb7c76ae0b3&width=2000&userId=&cache=v2);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    width: 700px;
+    left: 300px;
+} 
+.innertext{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 150px;
+    color: white;
+}
+.innerImg{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 250px;
+    transition: transform 0.5s ease;
+}
+.innerImg:active{
+    transform: rotate(180deg);
+}
+p{
+    width: 50%;
+    
+    text-align: justify;
+    margin-left: 25%;
+    margin-top: 90px;
+    
+}
+hr{
+    border: 1px solid #676767;
+    width: 50%;
+    margin-left: 350px;
+}
+h2{
+    background-color: #fee4c3;
+    width: 200px;
+    border-radius: 60%;
+    text-align: justify;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+ul{
+    text-align: justify;
+    margin-left: 28%;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ol{
+    text-align: justify;
+    margin-left: 28%;
+    list-style-type: none;
+    margin-top: 20px;
+    list-style-type: decimal;
+    width: 50%;
+}
